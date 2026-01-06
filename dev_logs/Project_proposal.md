@@ -34,6 +34,17 @@
 ## 各週規劃
 計畫於前一週預留２小時進行下週進度規劃，不要求於第一週完成全局規劃。
 
-#### Week 1
+#### Week 1 規劃加基礎了解
+    1. ---
+    2. 規劃 Week 1 / Week 2
+    3. 配置專案環境 linux / make file / 專案資料夾結構  
+    4. Know/note : 嵌入式系統 (GPT)
+    5. Know/note : Embedded Linux 架構全景 (GPT)
+    5.week. 整理本週進度 -> week1.md
 
-
+#### Week 2 學習/複習
+    1. Know/note : 開機流程（Boot Flow）(GPT)
+    2. Know/note : 嵌入式系統限制與設計思維 (GPT)
+    3. Know/note : 嵌入式系統安全 (GPT)
+    4. Know/note : QEMU + Buildroot (GPT)
+    5. Linux 指令複習 / 

@@ -6,14 +6,14 @@
 
 ---
 
-### ⬜ Phase 0: 建立專案結構與先備知識 (Week 0 / Pre-project)
-> **目標：打好技術基礎，配置開發環境，並建立一個專業的專案資料夾結構。**
+### ⬜ Phase 0: 建立專案結構與先備知識
+> **目標：打好基礎，配置開發環境，完成專案資料夾結構。**
 
 ### 環境配置與工具準備
-- [ ] **Linux 環境準備**：安裝 Ubuntu 22.04 (原生系統或 WSL2)，確保硬碟空間 > 50GB。
-- [ ] **開發工具安裝**：安裝 `git`, `build-essential`, `gcc`, `g++`, `make`, `vim/vscode`。
-- [ ] **編輯器設定**：配置 VS Code 的 Remote-SSH 或 WSL 插件，並安裝 C/C++ 擴充套件。
-- [ ] **版本控制初始化**：在 GitHub/GitLab 建立 Repo，並設定 `.gitignore` (排除編譯產生的 `build/` 或 `output/` 巨型檔案)。
+- [ ] **Linux 環境準備**
+- [ ] **開發工具安裝**： `git`, `build-essential`, `gcc`, `g++`, `make`, `vim/vscode`。
+- [ ] **編輯器設定**：`VS Code` 的 `Remote-SSH`,`WSL` 插件
+- [ ] **版本控制初始化**：`.gitignore` (排除 `build/` 或 `output/` 大檔案)。
 
 ### 專案目錄結構設計 (Scaffolding)
 - [ ] **建立資料夾階層**：
@@ -22,7 +22,7 @@
     - `scripts/`: 存放 OTA 腳本、簽章工具、QEMU 啟動腳本。
     - `buildroot/`: 用於存放 Buildroot 原始碼或作為 Submodule。
     - `configs/`: 存放 Buildroot 的 `.config` 備份。
-- [ ] **建立 README 骨架**：寫下專案名稱、目標以及這個進度追蹤表。
+- [x] **建立 README 骨架**：寫下專案名稱、目標以及這個進度追蹤表。
 
 ### 先備知識快速複習
 - [ ] **Linux CLI 熟練度**：複習檔案操作 (`cd`, `ls`, `mkdir`, `cp`, `mv`) 與權限管理 (`chmod`)。
@@ -31,8 +31,15 @@
 - [ ] **閱讀初步文件**：快速瀏覽 Buildroot 官方文件的 [The basics](https://buildroot.org/downloads/manual/manual.html#_getting_started) 章節。
 
 ### 軟性技能與工作流
-- [ ] **制定筆記策略**：選定筆記工具 (Notion, Obsidian 或直接寫 Markdown)，確保每週五能產出進度回顧。
-- [ ] **時間管理驗證**：確認每週 20 小時的分配時間表 (例如：一三五晚間 3 小時，六日各 5.5 小時)。
+- [x] **制定筆記策略**：選定筆記工具 (Notion, Obsidian 或直接寫 Markdown)，確保每週五能產出進度回顧。
+- [ ] **Know / Note 嵌入式**
+- [ ] **Know / Note 嵌入式 linux 架構**
+- [ ] **Know / Note linux 開機流程**
+- [ ] **Know / Note 嵌入式設計思維**
+- [ ] **Know / Note 嵌入式安全**
+- [ ] **Know / Note 嵌入式安全**
+- [ ] **Know / Note QEMU**
+- [ ] **Know / Note Buildroot**
 
 ---
 
