@@ -19,7 +19,7 @@
 -----
 ## 專案需求
 ##### Functional 
-    1. 系統 : 能在 QEMU 上成功載入 Bootloader、Kernel 並掛載 Rootfs
+    1. 系統 : 能在 QEMU 上成功載入 Bootloader、Kernel 並掛載 Rootfs (（kernel + rootfs + user-space）)
     2. 安全 : 系統更新前必須使用內建的公鑰驗證更新包的數位簽章進行認證
     3. OTA  : 系統能檢查目前軟體包是否為最新版本，拒絕格式錯誤或簽章失敗的更新
     4. 日誌 : 系統需記錄更新歷史、成功與失敗的原因，以便開發者除錯
@@ -40,7 +40,7 @@
     3. 配置專案環境 linux / make file / 專案資料夾結構  
     4. Know/note : 嵌入式系統 (GPT)
     5. Know/note : Embedded Linux 架構全景 (GPT)
-    5.week. 整理本週進度 -> week1.md
+    5. week. 整理本週進度 -> week1.md
 
 #### Week 2 學習/複習
     1. Know/note : 開機流程（Boot Flow）(GPT)
