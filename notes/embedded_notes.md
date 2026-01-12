@@ -25,3 +25,11 @@
     2. Bootloader 初始化記憶體 -> Linux Kernel 並把它搬進記憶體(kernel 安全認證) 
     3. kernel : 掛載Rootfs
     4. 第一個程式(init process)
+
+### 嵌入式思維
+
+    keyword:
+        Embedded Linux 限制 
+        Read-only root filesystem 唯獨式根目錄系統
+        Embedded Linux update risk 更新陷阱
+        Firmware update embedded device 韌體更新
